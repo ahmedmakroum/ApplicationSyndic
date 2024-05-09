@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/arrays.xml -->
+
+<resources>
+    <string-array name="role_array">
+        <item>Habitant</item>
+        <item>Syndic</item>
+    </string-array>
+</resources>
