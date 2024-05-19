@@ -1,0 +1,77 @@
+<!-- activity_tenant_dashboard.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".HabitantUi">
+
+    <!-- Profile section at the top left -->
+    <LinearLayout
+        android:id="@+id/linearLayoutProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom Habitant"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewApartmentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Apartment "
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Payments section -->
+    <TextView
+        android:id="@+id/textViewPayments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payements"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/linearLayoutProfile"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/listViewPayments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPayments"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Notices section -->
+    <TextView
+        android:id="@+id/textViewNotices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notices"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/listViewPayments"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/listViewNotices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNotices"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+</RelativeLayout>

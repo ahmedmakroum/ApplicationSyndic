@@ -13,6 +13,18 @@
         android:theme="@style/Theme.AppGestionSyndic"
         tools:targetApi="31">
         <activity
+            android:name=".HabitantUi"
+            android:exported="false" />
+        <activity
+            android:name=".HabitantLanding"
+            android:exported="false" />
+        <activity
+            android:name=".SyndicUi"
+            android:exported="false" />
+        <activity
+            android:name=".SyndicLanding"
+            android:exported="false" />
+        <activity
             android:name=".RegisterSyndic2"
             android:exported="false" />
         <activity
