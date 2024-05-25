@@ -16,13 +16,13 @@
             android:name=".HabitantUi"
             android:exported="false" />
         <activity
-            android:name=".HabitantLanding"
+            android:name=".HabitantLogin"
             android:exported="false" />
         <activity
             android:name=".SyndicUi"
             android:exported="false" />
         <activity
-            android:name=".SyndicLanding"
+            android:name=".SyndicImmeubleCreate"
             android:exported="false" />
         <activity
             android:name=".RegisterSyndic2"
