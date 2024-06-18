@@ -6,4 +6,8 @@
         <item>Habitant</item>
         <item>Syndic</item>
     </string-array>
+    <string-array name="type_array">
+        <item>Notice</item>
+        <item>Payment</item>
+    </string-array>
 </resources>
